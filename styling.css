@@ -1,0 +1,72 @@
+body{
+  background: url(images/uniqtree.jpg) center center fixed;
+  background-size:cover ;
+  color: white;
+}
+
+#header{
+  text-align: center;
+  font-size: 8vw;
+  color: black;
+  font-weight: bold;
+}
+
+#lap{
+  text-align: right;
+  font-size: 5vw;
+}
+#time{
+  text-align: center;
+  font-size: 11vw;
+  color: blue;
+}
+.logo{
+  position: relative;
+  height: 30px;
+  width: 50px;
+  text-align: center;
+  padding-left: 100px;
+}
+
+#controlbuttons{
+
+  margin-bottom: 100px;
+
+}
+.control{
+  background-color: orangered;
+  height: 10vw;
+  width: 10vw;
+  border-radius: 100%;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2.5vw;
+  cursor: pointer;
+
+}
+.control:active{
+  background-color: white;
+  color: orangered;
+}
+
+#laps{
+
+  max-height: 270px;
+  overflow-y: scroll;
+
+}
+
+.lap{
+
+  border-bottom: 2px solid white;
+  margin: 15px;
+  height: 50px;
+}
+.laptimetitle{
+  font-size: 1.5em;
+  float: left;
+}
+.laptime{
+  font-size: 2em;
+  float: right;
+}
